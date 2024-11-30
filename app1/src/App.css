@@ -1,0 +1,36 @@
+
+
+.floatItem{
+  float: left;
+  text-align:center;
+  padding: 0px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.onClickShowBorder:hover{
+  border:1px solid white;
+}
+
+.show{
+  position:absolute;
+
+}
+
+.hide{
+  visibility:hidden;
+}
+
+.showAccountDialog{
+display:none;
+}
+
+.onHoverAccountList:hover .showAccountDialog{
+display:block;
+}
+
